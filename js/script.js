@@ -1,8 +1,8 @@
 window.onload = function () {
     $('.main-slider').slick({
         variableWidth: true,
-        nextArrow: '<img src="/images/right-arrow-big.png" alt="" class="main-next">',
-        prevArrow: '<img src="/images/left-arrow-big.png" alt="" class="main-prev">'
+        nextArrow: '<img src="images/right-arrow-big.png" alt="" class="main-next">',
+        prevArrow: '<img src="images/left-arrow-big.png" alt="" class="main-prev">'
     });
     $('.child-slider__slider-for').slick({
         slidesToShow: 1,
@@ -14,8 +14,8 @@ window.onload = function () {
         responsive: [{
             breakpoint: 768,
             arrows: true,
-            prevArrow: '<div class="prev-main"><img src="/images/left-arrows.png" alt="" style="cursor: pointer;"></div>',
-            nextArrow: '<div class="next-main"><img src="/images/right-arrows.png" alt="" style="cursor: pointer;"></div>'
+            prevArrow: '<div class="prev-main"><img src="images/left-arrows.png" alt="" style="cursor: pointer;"></div>',
+            nextArrow: '<div class="next-main"><img src="images/right-arrows.png" alt="" style="cursor: pointer;"></div>'
         }]
     });
     $('.child-slider__slider-nav').slick({
@@ -25,8 +25,8 @@ window.onload = function () {
         centerMode: true,
         variableWidth: true,
         focusOnSelect: true,
-        prevArrow: '<div class="prev"><img src="/images/left-arrows.png" alt="" style="cursor: pointer;"></div>',
-        nextArrow: '<div class="next"><img src="/images/right-arrows.png" alt="" style="cursor: pointer;"></div>',
+        prevArrow: '<div class="prev"><img src="images/left-arrows.png" alt="" style="cursor: pointer;"></div>',
+        nextArrow: '<div class="next"><img src="images/right-arrows.png" alt="" style="cursor: pointer;"></div>',
         responsive: [{
             breakpoint: 767,
             settings: 'unslick'
@@ -52,8 +52,8 @@ window.onload = function () {
             arrows: true
         }
         ],
-        prevArrow: '<img src="/images/left-arrow-big.png" alt="" class="reviews-prev">',
-        nextArrow: '<img src="/images/right-arrow-big.png" alt="" class="reviews-next">'
+        prevArrow: '<img src="images/left-arrow-big.png" alt="" class="reviews-prev">',
+        nextArrow: '<img src="images/right-arrow-big.png" alt="" class="reviews-next">'
     });
     function popup() {
         let closeOverlay = document.querySelector('.overlay');
